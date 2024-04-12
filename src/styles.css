@@ -1,0 +1,51 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.container{
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.leftside{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border:1px solid #000;
+  flex-direction:column;
+  height:200px;
+  flex:1;
+}
+.action{
+  display:flex;
+  flex-direction:column;
+  margin:10px;
+}
+.rightside{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border:1px solid #000;
+  flex-direction:column;
+  height:200px;
+  flex:1;
+}
+.btn{
+  padding:5px;
+  border-radius:5px;
+  margin-top:5px;
+  width:100px;
+  background-color:#fbcf;
+}
+.listitem{
+  background-color:#1ffc;
+  margin:5px;
+  padding:5px;
+  border-radius:8px;
+  cursor:pointer;
+}
+.slectedItem{
+  background-color:#ccc;
+  color:black;
+}
